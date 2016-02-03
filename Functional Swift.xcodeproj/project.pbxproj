@@ -12,6 +12,7 @@
 		45170DA01C618D8200555CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45170D9E1C618D8200555CBF /* Main.storyboard */; };
 		45170DA21C618D8200555CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45170DA11C618D8200555CBF /* Assets.xcassets */; };
 		45170DA51C618D8200555CBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45170DA31C618D8200555CBF /* LaunchScreen.storyboard */; };
+		45170DAE1C618F4500555CBF /* MyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45170DAD1C618F4500555CBF /* MyUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		45170DA11C618D8200555CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45170DA41C618D8200555CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45170DA61C618D8200555CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45170DAD1C618F4500555CBF /* MyUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,21 @@
 			children = (
 				45170D9A1C618D8200555CBF /* AppDelegate.swift */,
 				45170D9C1C618D8200555CBF /* ViewController.swift */,
+				45170DAD1C618F4500555CBF /* MyUtils.swift */,
 				45170D9E1C618D8200555CBF /* Main.storyboard */,
+				45170DAC1C618D9100555CBF /* Supporting Files */,
+			);
+			path = "Functional Swift";
+			sourceTree = "<group>";
+		};
+		45170DAC1C618D9100555CBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				45170DA11C618D8200555CBF /* Assets.xcassets */,
 				45170DA31C618D8200555CBF /* LaunchScreen.storyboard */,
 				45170DA61C618D8200555CBF /* Info.plist */,
 			);
-			path = "Functional Swift";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45170D9D1C618D8200555CBF /* ViewController.swift in Sources */,
+				45170DAE1C618F4500555CBF /* MyUtils.swift in Sources */,
 				45170D9B1C618D8200555CBF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
